@@ -30,17 +30,18 @@
 
 'use strict';
 
-import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import React, { Component } from 'react';
+import { Platform, StyleSheet, Text, View } from 'react-native';
 import {
   createStackNavigator,
   createAppContainer
 } from 'react-navigation';
 import SearchPage from './components/SearchPage';
 import ShopsScreen from './components/ShopsScreen';
-
+import AddShops from './components/AddShops';
 const RootStack = createStackNavigator({
-  Home: { screen: ShopsScreen }
+  Home: { screen: ShopsScreen },
+  AddShops: { screen: AddShops }
 });
 const App = createAppContainer(RootStack);
 

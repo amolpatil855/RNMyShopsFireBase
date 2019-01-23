@@ -3,6 +3,7 @@ import {
   View,
   Text,
   Image,
+  Button,
   TouchableHighlight,
   StyleSheet,
   TextInput
@@ -62,6 +63,10 @@ export default class ShopsScreen extends Component {
         ) : (
           <Text>No items</Text>
         )}
+         <Button
+          title="Add an Item"
+          onPress={() => this.props.navigation.navigate('AddShops')}
+        />
       </View>
     );
   }
