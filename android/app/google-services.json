@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "757687796471",
+    "firebase_url": "https://myshops-f497a.firebaseio.com",
+    "project_id": "myshops-f497a",
+    "storage_bucket": "myshops-f497a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757687796471:android:409688ed222d59e2",
+        "android_client_info": {
+          "package_name": "com.myshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757687796471-c3urjcamonh4k5j5nshcfjv0h9ajjlc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_4Rek3YA7G6Xwp5qNglwErwU-_LqZ1ns"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757687796471:android:793e49f18cdf5721",
+        "android_client_info": {
+          "package_name": "com.myshops"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757687796471-c3urjcamonh4k5j5nshcfjv0h9ajjlc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_4Rek3YA7G6Xwp5qNglwErwU-_LqZ1ns"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
